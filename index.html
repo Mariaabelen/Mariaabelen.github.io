@@ -147,6 +147,7 @@
 
     
 
+
     <div class="formu" id="contac">
         <div class="info">
             <h2><strong>Mandame un mensaje</strong></h2>
@@ -165,20 +166,22 @@
             </div>
         </div>
 
-        <div class="formulario">
-            <div class="name">
-                <input type="text" name="Nombre" placeholder="Nombre"><br>
-            </div>
-            <div class="co">
-                <input type="text" name="Correo" placeholder="Correo"><br>
-            </div>
-            <div class="mensaje">
-                <input type="text" name="Mensaje" placeholder="Mensaje"><br>
-            </div>
-            <div class="botonenviar">
-                <input  type="submit" name="Enviar"><br>
-            </div>
+        <form  action="https://formspree.io/f/mdkazojw"  method="POST">
+            <div class="formulario">
+                <div class="name">
+                    <input type="text" name="Nombre" placeholder="Nombre"><br>
+                </div>
+                <div class="co">
+                    <input type="text" name="Correo" placeholder="Correo"><br>
+                </div>
+                <div class="mensaje">
+                    <input type="text" name="Mensaje" placeholder="Mensaje"><br>
+                </div>
+                <div class="botonenviar">
+                    <input  type="submit" name="Enviar"><br>
+                </div>
         </div>
+       </form>
 
     </div>
 
