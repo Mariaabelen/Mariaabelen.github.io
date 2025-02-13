@@ -515,3 +515,344 @@ nav{
     font-size: 20px;
     font-family: "Kanit", serif;
 }
+
+@media screen and (max-width: 786px) { 
+    nav {
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 10px;
+    }
+
+    .menu {
+        flex-direction: row; 
+        font-size: 16px; 
+        margin-top: 10px; 
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+
+    .menu a {
+        margin: 10px 0; 
+        padding: 15px 25px; 
+        font-size: 16px; 
+        margin-right: 20%;
+    }
+
+    .padre1 {
+        flex-direction: column; 
+        align-items: center;
+        margin: 20px auto; 
+        height: auto; 
+        width: 90%; 
+    }
+
+    .caja1 {
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+
+    .caja1 img {
+        max-width: 100%; 
+        height: auto;
+    }
+
+    .texto {
+        width: 100%;
+        text-align: center; /
+    }
+
+    .texto h1 {
+        font-size: 28px;
+    }
+
+    .texto p {
+        font-size: 18px;
+    }
+
+
+    .botones {
+        flex-direction: row; 
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 20%;
+    }
+
+    .boton1, .boton2 {
+        margin: 10px 0;
+        width: 50%; 
+    }
+    .boton1 a, .boton2 a {
+        font-size: 16px;
+    }
+
+
+    .habilidades {
+        height: auto; 
+        padding: 20px;
+    }
+
+    .habilidades h2 {
+        font-size: 24px;
+    }
+
+    .habilidades p {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    .lenguajes {
+        flex-direction: column; 
+        margin: 0;
+    }
+
+    .bloque1, .bloque2 {
+        flex-direction: column; 
+        margin: 20px 0; 
+    }
+
+    .bloque1 img, .bloque2 img {
+        margin: 10px 0; 
+        width: 80px;
+        height: 90px;
+    }
+
+    .bloque1 p, .bloque2 p {
+        font-size: 16px;
+    }
+
+    .bloque2 {
+
+        margin-left: 50%;
+
+    }
+
+    .proyectos h2 {
+        font-size: 24px;
+    }
+
+    .proyectos p {
+        font-size: 18px;
+    }
+
+    .proyec1, .proyec2, .proyec3, .proyec4 {
+        flex-direction: column; 
+        margin: 20px 0;
+    }
+
+    .proyectos img{
+
+       margin-left: 10%;
+
+    }
+
+    .texto1, .texto2, .texto3, .texto4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .texto1 h2, .texto2 h2, .texto3 h2, .texto4 h2 {
+        font-size: 20px;
+    }
+
+    .texto1 h3, .texto2 h3, .texto3 h3, .texto4 h3 {
+        font-size: 18px;
+    }
+
+    .texto1 p, .texto2 p, .texto3 p, .texto4 p {
+        font-size: 16px;
+    }
+
+    .formu {
+        flex-direction: column; 
+        height: auto;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .info {
+        margin: 0 auto 20px; 
+        width: 90%;
+        text-align: center;
+    }
+
+    .info h2 {
+        font-size: 24px;
+    }
+
+    .info p {
+        font-size: 16px;
+        width: 100%; 
+    }
+
+    .telefono, .correo, .ubi {
+        text-align: left;
+        margin: 10px 0;
+    }
+
+    .telefono h3, .correo h3, .ubi h3{
+        margin-left: 15%;
+        font-size: 14px;
+    }
+
+    .telefono img, .correo img, .ubi img{
+      width: 60px;
+      height: 60px;
+    }
+
+    .formulario {
+       width: 350px;
+       height: 320px;
+    }
+
+    .formulario input {
+        width: calc(100% - 40px); 
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .mensaje input {
+        height: 80px;
+    }
+    .botonenviar input{
+        width: auto;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 481px) { 
+    .menu a {
+        font-size: 14px; 
+        padding: 10px 20px;
+        margin-top: 10%;
+        margin-right: 10%;
+        margin-left: 5%;
+        margin-bottom: 10%;
+        
+    }
+
+    .menu{
+        flex-direction: row;
+    }
+
+    .texto h1 {
+        font-size: 24px; 
+    }
+
+    .texto p {
+        font-size: 16px; 
+    }
+
+
+    .botones{
+
+        flex-direction: row;
+        margin-top: 20px;
+        margin-left: 17%;
+        
+    }
+
+    .boton1 a, .boton2 a {
+        font-size: 14px;
+    }
+
+    .habilidades h2 {
+        font-size: 20px;
+    }
+
+    .habilidades p {
+        font-size: 16px;
+    }
+
+    .bloque1 img, .bloque2 img {
+        width: 60px;
+        height: 70px;
+    }
+
+    .bloque1 p, .bloque2 p {
+        font-size: 14px;
+    }
+
+    .bloque2 {
+       
+        margin-left: 55%;
+
+    }
+
+    .proyectos h2 {
+        font-size: 20px;
+    }
+
+    .proyectos p {
+        font-size: 16px;
+    }
+
+    .texto1 h2, .texto2 h2, .texto3 h2, .texto4 h2 {
+        font-size: 18px;
+    }
+
+    .texto1 h3, .texto2 h3, .texto3 h3, .texto4 h3 {
+        font-size: 16px;
+    }
+
+    .texto1 p, .texto2 p, .texto3 p, .texto4 p {
+        font-size: 14px;
+    }
+
+    .info h2 {
+        font-size: 20px;
+    }
+
+    .info p {
+        font-size: 14px;
+    }
+ 
+    .telefono img{
+
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .correo img{
+
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .ubi img{
+
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .telefono h3{
+
+        font-size: 12px;
+        margin-left: 20%;
+    }
+
+    .correo h3{
+
+        font-size: 12px;
+        margin-left: 20%;
+    }
+
+    .ubi h3{
+
+        font-size: 12px;
+        margin-left: 20%;
+        margin-bottom: 10%;
+    }
+
+    .formulario{
+
+        height: 312px;
+        width: 322px;
+        margin-right: 5%;
+
+    }
+
+}
